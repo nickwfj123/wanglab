@@ -1,2 +1,2 @@
 # wanglab.github.io
-test page fot wang lab
+test page for wang lab
