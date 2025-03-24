@@ -55,7 +55,7 @@ p {
 
 .row img {
     height: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 a {
@@ -186,12 +186,12 @@ section {
 
 /* Rows and Columns */
 
-.row {
+/* .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 50px 30px;
     position: relative;
-}
+} */
 
 .no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
     padding-bottom: 0;
@@ -684,7 +684,7 @@ nav#nav-mobile a:hover {
 }
 
 #header .social-icons {
-    margin-top: 27px;
+    margin-top: 24px;
 }
 
 /* --------- 2.6 Images ---------- */
@@ -702,10 +702,10 @@ img {
 
 a img {
     border: none;
-    -webkit-transition: all 0.3s ease-out;
+    /* -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; */
     -webkit-backface-visibility: hidden;
 }
 
@@ -783,20 +783,20 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
 #banner h1 {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #banner .section-heading:before {
     content: "";
     display: block;
-    width: 30px;
+    width: 100px;
     height: 5px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -979,7 +979,7 @@ blockquote {
 }
 
 #gallery [class*='col-'] {
-    padding: 0;
+    padding: 10px;
 }
 
 #gallery a {
@@ -988,31 +988,26 @@ blockquote {
     overflow: hidden;
 }
 
-#gallery a:hover img {
-    opacity: 0.15;
-    -moz-backface-visibility: hidden;
-}
-
 #gallery a:before {
     font-size: 2.2em;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bolder;
     text-align: center;
-    content: "+";
-    width: 70px;
-    height: 70px;
+    content: "Learn More";
+    /* width: 70px;
+    height: 70px; */
     border-radius: 100em;
     display: block;
     position: absolute;
     top: 55%;
     left: 50%;
     line-height: 72px;
-    margin: -35px 0 0 -35px;
+    margin: -35px 0 0 -90px;
     opacity: 0;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     transition: all .2s linear;
-    vertical-align: middle;
+
 }
 
 #gallery a:hover:before {

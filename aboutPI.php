@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Tao Wang Lab | Quantitative Biomedical Research Center | UT Southwestern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Fangjiang Wu">
+    <meta name="description" content="UT Southwestern,QBRC,Tao Wang Lab" />
+    <meta name="keyword"
+        content="UT Southwestern,QBRC,Tao Wang Lab,Population and Data Sciences,Bioinformatics,Quantitative Biomedical Research Center" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon" />
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <?php include "data/members_data.php" ?>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--End of Preloader-->
+
+    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+        <div class="top-border wow fadeInDown animated"
+            style="visibility: visible; animation-name: fadeInDown;"></div>
+        <div class="right-border wow fadeInRight animated"
+            style="visibility: visible; animation-name: fadeInRight;"></div>
+        <div class="bottom-border wow fadeInUp animated"
+            style="visibility: visible; animation-name: fadeInUp;"></div>
+        <div class="left-border wow fadeInLeft animated"
+            style="visibility: visible; animation-name: fadeInLeft;"></div>
+    </div>
+
+    <div id="wrapper">
+
+        <?php include "navbar.php" ?>
+
+        <!--Main Content Area-->
+        <main id="content">
+            <!-- Begin page content -->
+            <section class="bg bg-long">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-heading text-center" style="margin-top: 80px">
+                                <h2 class="section-title">About PI</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex">
+                        <div class="col-md-4 d-flex">
+                            <div class="card testimonial-card">
+                                <div class="card-up indigo"></div>
+                                <div class="avatar"><img src="images/members/taowang.jpg" class="rounded-circle"></div>
+                                <div class="card-body text-center">
+                                    <!--Name-->
+                                    <p class="card-title">Tao Wang</h2>
+                                    <h2>Associate Professor, Quantitative Biomedical Research Center, UT
+                                        Southwestern Medical Center
+                                    </h2>
+                                    <hr>
+
+                                    <div class="contactlist">
+
+                                        <ul>
+                                            <li><span class="badge badge-success"><i class="fa fa-phone"
+                                                        aria-hidden="true"></i></span>&nbsp;
+                                                214-648-3111
+                                            </li>
+
+                                            <li><span class="badge badge-primary"><i class="fa fa-envelope"
+                                                        aria-hidden="true"></i></span>&nbsp;Tao.Wang@UTSouthwestern.edu
+                                            </li>
+
+                                            <li><span class="badge badge-danger text-center"><i class="fa fa-map-pin"
+                                                        aria-hidden="true"></i></span>&nbsp;Suite
+                                                H9.106B, 5323 Harry Hines Blvd. Dallas, TX 75390
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <hr>
+                                    <a href="TaoWang_CV_v35.docx" class="button">DOWNLOAD CV</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex">
+                            <div class="card testimonial-card">
+                                <div class="card-body">
+                                    <h3 class="card-title text-center"
+                                        style="padding:10px 0 0 0">
+                                        Biography</h3>
+                                    <hr class="colorseperator">
+                                    <h2>I lead a top AI-for-science lab at UT Southwestern Medical Center, specializing in
+                                        the development and deployment of AI-driven solutions for immunology discovery. Our
+                                        interdisciplinary research integrates machine learning, statistics, medicine, and
+                                        biology to extract meaningful insights from high-dimensional biomedical data.</h2>
+                                    <h2>Our work focuses on leveraging public and in-house high-throughput datasets to
+                                        uncover mechanistic insights into human diseases, particularly immunological
+                                        disorders, with implications for diagnosis, prognosis, and treatment. We apply
+                                        cutting-edge AI techniques to model T/B cell antigens and receptor sequences at the
+                                        molecular level, analyze single cell and spatially resolved transcriptomics data at
+                                        the cellular level, and integrate genomics with electronic medical records at the
+                                        patient level.
+                                    </h2>
+                                    <h2>By pioneering AI methodologies for multi-scale immunological data, our ultimate goal
+                                        is to transform patient care through improving disease prediction, treatment
+                                        personalization, and therapeutic discovery.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 50px">
+                            <div class="col-md-6">
+                                <h3 class="text-center">Faculty Academic Appointments</h3>
+                                <div class="hl1"></div>
+                                <div style="margin-top:40px">
+                                    <ul class="ul-dates">
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2023</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Associate Professor (tenure track)</h5>
+                                                <small style="margin-bottom: -10px"><em>
+                                                        Center for the Genetics of Host Defense,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2023</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Associate Professor (tenure track)</h5>
+                                                <small style="margin-bottom: -10px"><em>
+                                                        Peter O’Donnell Jr. School of Public Health,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2023</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2017</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Assistant Professor (tenure track)</h5>
+                                                <small style="margin-bottom: -10px"><em>
+                                                        Center for the Genetics of Host Defense,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2023</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2017</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Assistant Professor (tenure track)</h5>
+                                                <small style="margin-bottom: -10px"><em>Population and Data Sciences,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2017</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2015</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Assistant Professor (research track)</h5>
+                                                <small style="margin-bottom: -10px"><em>Center for the Genetics of Host Defense,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2017</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2015</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Assistant Professor (research track)</h5>
+                                                <small style="margin-bottom: -10px"><em>Clinical Sciences,
+                                                        University of Texas Southwestern Medical Center, Dallas, TX</em></small>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <h3 class="text-center">Education</h3>
+                                <div class="hl1"></div>
+                                <div style="margin-top:40px">
+                                    <ul class="ul-dates">
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2015</span>
+                                                <span class="badge badge-lightcolor"
+                                                    style="border-radius:.1rem;">2011</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Ph.D., Biostatistics and Bioinformatics & Integrative Biology (Dr. Yang
+                                                    Xie)</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical Center,
+                                                        USA</em>
+                                                </small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2015</span>
+                                                <span class="badge badge-lightcolor"
+                                                    style="border-radius:.1rem;">2012</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>M.S., Statistics</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Dallas, USA</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2011</span>
+                                                <span class="badge badge-lightcolor"
+                                                    style="border-radius:.1rem;">2007</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>B.S., Life Sciences</h5>
+                                                <small style="margin-bottom: -10px"><em>Peking University, China</em>
+                                                </small>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3 class="text-center">Committee Service</h3>
+                                <div class="hl1"></div>
+                                <div style="margin-top:40px">
+                                    <ul class="ul-dates">
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2021</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>PhD Committee for Danyi Xiong (Bio-statistics)</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical Center/Southern
+                                                        Methodist University</em>
+                                                </small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">Present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2020</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Immunology graduate program</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical Center</em>
+                                                </small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">Present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2020</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>PhD Committee for Xinyi Zhang (BME)</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical Center</em>
+                                                </small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2020</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>UTSW Computational And Systems Works-In-Progress & Journal Club organization
+                                                    committee</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical Center</em>
+                                                </small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">Present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>UTSW Simmons Cancer Center Biostatistics Core Internal Advisory
+                                                    Committee</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical
+                                                        Center</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">Present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>UTSW PhD Admissions Committee</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical
+                                                        Center</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2020</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>PhD Committee for Debapriya Sinha (BME)</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical
+                                                        Center</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">2019</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2019</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Cancer Center Biostatistics Faculty Search Committee</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical
+                                                        Center</em></small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span class="badge badge-color" style="border-radius:.1rem;">Present</span>
+                                                <span class="badge badge-lightcolor" style="border-radius:.1rem;">2017</span>
+                                            </div>
+                                            <div class="datas-content">
+                                                <h5>Biomedical Engineering graduate program</h5>
+                                                <small style="margin-bottom: -10px"><em>UT Southwestern Medical
+                                                        Center</em></small>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--End Main Content Area-->
+
+        <?php include "footer.php" ?>
+
+    </div>
+
+    <!-- Include JavaScript resources -->
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- <script src="js/jquery.stickyNavbar.min.js"></script> -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/custom.js"></script>
+    <script type='text/javascript' src="js/collapsibleclick.js"></script>
+</body>
+
+</html>

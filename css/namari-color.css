@@ -26,7 +26,7 @@ a, .la-ball-triangle-path {
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    color:#d2b356 !important;
 }
 
 /* Default Icon Color */
@@ -89,14 +89,14 @@ a:hover, #header.nav-solid nav a:hover {
     color:#fff;    
 }
 
-.section-heading h2:after {
+/* .section-heading h2:after {
     background:#d2b356;
     content:"";
     display:block;
     width:30px;
     height:5px;
     margin-top:30px;
-}
+} */
 
 .text-center .section-heading h2:after {
     margin:30px auto 25px auto;
@@ -124,8 +124,9 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
-    background-size:cover;
+    background: url("../images/banner-images/bg.png") no-repeat center top;
+    background-size: cover ;
+    background-color: rgba(0, 0, 0, 0.07);
 }
 
 
@@ -308,6 +309,7 @@ h6 {
 #banner .button:hover {
     color:#d2b356;
     border-color:#d2b356;
+    text-decoration: none;
 }
 
 
@@ -317,9 +319,14 @@ h6 {
 
 #landing-footer, #landing-footer p, #landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:12px;
-    font-weight:normal;
-    color:#999;
+    font-size: 14px;
+    font-weight: 300;
+    color: #111;
+}
+
+#landing-footer, #landing-footer p, #landing-footer a:hover {
+    color: #d2b356;
+    text-decoration: none;
 }
 
 /* Footer Icon Color */
