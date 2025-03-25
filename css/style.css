@@ -757,9 +757,9 @@ h6 {
 
 /* Section Headings */
 
-.section-heading {
+/* .section-heading {
     padding: 0 0 15px 0;
-}
+} */
 
 .section-subtitle {
     font-size: 18px;
@@ -926,9 +926,9 @@ h6 {
 
 /* --------- 6.3 Testimonials ---------- */
 
-.testimonial {
+/* .testimonial {
     padding: 15px;
-}
+} */
 
 blockquote {
     position: relative;
